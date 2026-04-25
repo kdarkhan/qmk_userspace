@@ -8,8 +8,8 @@
 // #define OLED_UPDATE_INTERVAL 200
 
 #ifdef OLED_ENABLE
-#  define OLED_TIMEOUT 120000
-#  define OLED_UPDATE_INTERVAL 100
+#    define OLED_TIMEOUT 120000
+#    define OLED_UPDATE_INTERVAL 100
 #endif
 
 // homerow mods https://precondition.github.io/home-row-mods
@@ -20,3 +20,7 @@
 #define QUICK_TAP_TERM 100
 
 #define BILATERAL_COMBINATIONS 500
+
+#define FLOW_TAP_TERM 150
+
+#define CHORDAL_HOLD
